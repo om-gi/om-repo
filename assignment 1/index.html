@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Assignment</title>
+</head>
+<body >
+    <h1>My Bio Data</h1>
+    <form action="">
+    <fieldset>
+        <legend>
+            Personal Information
+        </legend>
+        
+            <label for="fname">FirstName:</label>
+            <input type="text" placeholder="First Name" id="fname">
+            <label for="lname">LastName:</label>
+            <input type="text" placeholder="Last Name" id="lname"><br><br>
+
+            <label for="male">Male: </label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female: </label>
+            <input type="radio" name="gender" id="female">
+            <label for="other">Other: </label>
+            <input type="radio" name="gender" id="other"><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob"><br><br>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" placeholder="Enter Your Email" id="email"><br><br>
+
+            <label for="phone">Phone</label>
+            <input type="number" placeholder="+91" id="phone"><br><br>
+
+            <label for="height">Height</label>
+            <input type="" placeholder="Height in Feet" id="height">
+        </fieldset>
+        <fieldset>
+            <legend>Eduation</legend>
+            <label for="sname">School Name :</label>
+            <input type="text" placeholder="School Name" id="sname"><br><br>
+
+            <label for="class">Class :</label>
+            <input type="text" placeholder="Enter Class" id="class"><br><br>
+
+            <label for="stream">Stream :</label>
+            <select name="list" id="stream">
+                <option value="">Stream</option>
+                <option value="">UCA</option>
+                <option value="">Full-Stack</option>
+                <option value="">UI-UX</option>
+                <option value="">Cyber Security</option>
+                <option value="">Digital Marketing</option>
+            </select><br><br>
+
+            <label for="msheet">Marksheet : </label>
+            <input type="file" id="msheet">
+        </fieldset><br>
+        <button>Submit</button>
+    </form>
+    <br>
+    <h1>This is Time Table</h1>
+    <table border="8" cellspacing="8" cellpadding="8">
+        <thead>
+            <tr>
+                <th>Days / Periods</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th></th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>Mon</td>
+                    <td>Science</td>
+                    <td>English</td>
+                    <td>Hindi</td>
+                    <td rowspan="6">B <br>
+                        R <br>
+                        E <br>
+                        A <br>
+                        K
+                    </td>
+                    <td>Maths</td>
+                    <td>Games</td>
+                    <td>Moral Science</td>
+                </tr>
+                <tr>
+                    <td>Tue</td>
+                    <td>Science</td>
+                    <td>English</td>
+                    <td>Hindi</td>
+                    <td>Maths</td>
+                    <td>Games</td>
+                    <td>Moral Science</td>
+                </tr>
+                <tr>
+                    <td>Wed</td>
+                    <td>Science</td>
+                    <td>English</td>
+                    <td rowspan="3">Hindi</td>                
+                    <td>Maths</td>
+                    <td>Games</td>
+                    <td>Moral Science</td>
+                </tr>
+                <tr>
+                    <td>Thu</td>
+                    <td>Science</td>
+                    <td>English</td>              
+                    <td>Maths</td>
+                    <td>Games</td>
+                    <td>Moral Science</td>
+                </tr>
+                <tr>
+                    <td>Fri</td>
+                    <td>Science</td>
+                    <td>English</td>         
+                    <td>Maths</td>
+                    <td>Games</td>
+                    <td>Moral Science</td>
+                </tr>
+                <tr>
+                    <td>Sat</td>
+                    <td>Science</td>
+                    <td>English</td>
+                    <td>Hindi</td>                
+                    <td colspan="3">Maths</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <th colspan="8" >This is Class VIII</th>
+                </tr>
+            </tfoot>
+        
+    </table>
+
+</body>
+</html>
