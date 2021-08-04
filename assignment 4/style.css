@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 150px;
+    background-color: orange;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+nav h1 {
+    font-size: 60px;
+}
+
+li {
+    float: right;
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav a {
+    font-size: 50px;
+    color: orangered;
+}
+
+@media screen and (max-width:620px) {
+    nav,
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75vw;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+figure {
+    height: 800px;
+    width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 3px rgb(104, 104, 104);
+    transition: 100ms;
+}
+
+figure img {
+    height: 700px;
+    width: 100%;
+}
+
+figcaption h2 {
+    font-size: 40px;
+}
+
+.container2 {
+    display: flex;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 20px black;
+    height: 1300px;
+}
+
+form {
+    margin-top: 200px;
+    margin-left: 1300px;
+    font-size: 60px;
+}
+
+form input {
+    border: tomato 8px solid;
+    font-size: 40px;
+}
+
+.arti img {
+    height: 900px;
+    width: 1000px;
+    margin-left: 700px;
+    margin-top: 200px;
+}
+
+form button {
+    font-size: 60px;
+    width: 100%;
+    background-color: orange;
+    color: white;
+}
