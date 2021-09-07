@@ -1,0 +1,86 @@
+body {
+    height: 100vh;
+    font-family: helvetica;
+    background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space space-evenly;
+    align-items: center;
+}
+
+p {
+    margin: 5px;
+    color: rgb(1, 1, 10);
+}
+
+#od {
+    background: rgb(206, 194, 243);
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#id {
+    width: 200px;
+    text-align: center;
+    background: rgba(256, 256, 256, .6);
+    border-radius: 10px;
+}
+
+div {
+    margin: 10px auto;
+}
+
+input {
+    opacity: ;
+    border: none;
+    margin: 10px auto;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+button {
+    color: rgb(4, 4, 14);
+    border: none;
+    margin: auto;
+    width: 215px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(209, 141, 38);
+}
+
+#location {
+    font-size: 20px;
+}
+
+#time {
+    font-size: 20px;
+}
+
+#temp {
+    font-size: 30px;
+}
+
+#minmax {
+    font-size: 15px;
+}
+
+#weather {
+    font-size: 20px;
+}
+
+#speed {
+    font-size: 20px;
+}
